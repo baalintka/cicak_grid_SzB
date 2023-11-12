@@ -1,0 +1,104 @@
+main{
+    
+    width:900px;
+    margin: auto;
+    text-align: center;
+}
+
+nav{
+    color: white;
+    height: 100vh;
+    background-image: url("images/hero.jpg");   
+    background-size: cover;
+}
+nav ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 20px;
+    overflow: hidden;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  
+ 
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+nav li{
+    margin: 15px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(247, 123, 8);
+  }
+nav li a:hover{
+    background-color: white;
+    color: black;
+
+  }
+nav li:hover{
+    background-color: white;
+    color: black;
+
+  }
+.atag:hover{
+    background-color: white;
+    color: black;
+  }
+
+.atag{
+    
+    background-color: rgb(247, 123, 8);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+article ul{
+
+    list-style-type: none;
+    margin: 15px;
+    padding: 20px;
+    overflow: hidden;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+article li{
+    margin: 15px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(247, 123, 8);
+
+}
+article li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+article li:hover{
+    background-color: white;
+    color: black;
+
+  }
+article ul li a:hover{
+    background-color: white;
+    color: black;
+  }
+.elet{
+  background-color: black;
+  color: white;
+}
