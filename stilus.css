@@ -65,7 +65,7 @@ nav li:hover{
     text-decoration: none;
   }
 
-article ul{
+  .elet ul{
 
     list-style-type: none;
     margin: 15px;
@@ -75,14 +75,14 @@ article ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-article li{
+.elet li{
     margin: 15px;
     border-radius: 25px;
     padding: 10px;
     background-color: rgb(247, 123, 8);
 
 }
-article li a{
+.elet li a{
     display: block;
     color: white;
     text-align: center;
@@ -94,11 +94,24 @@ article li:hover{
     color: black;
 
   }
-article ul li a:hover{
+  .elet ul li a:hover{
     background-color: white;
     color: black;
   }
 .elet{
   background-color: black;
   color: white;
+}
+.atagmasik{
+    
+  background-color: rgb(247, 123, 8);
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border-radius: 25px;
+  padding: 10px;
+  text-decoration: none;
 }
