@@ -1,3 +1,6 @@
+*{
+  color: white;
+}
 main{
     
     width:900px;
@@ -6,7 +9,7 @@ main{
 }
 
 nav{
-    color: white;
+    
     height: 100vh;
     background-image: url("images/hero.jpg");   
     background-size: cover;
@@ -25,7 +28,7 @@ nav ul {
  
 nav li a {
     display: block;
-    color: white;
+    
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -55,7 +58,7 @@ nav li:hover{
     
     background-color: rgb(247, 123, 8);
     display: block;
-    color: white;
+    
     text-align: center;
     padding: 14px 16px;
     margin-left: 250px;
@@ -84,12 +87,12 @@ nav li:hover{
 }
 .elet li a{
     display: block;
-    color: white;
+    
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-article li:hover{
+.elet li:hover{
     background-color: white;
     color: black;
 
@@ -106,7 +109,7 @@ article li:hover{
     
   background-color: rgb(247, 123, 8);
   display: block;
-  color: white;
+  
   text-align: center;
   padding: 14px 16px;
   margin-left: 250px;
@@ -114,4 +117,18 @@ article li:hover{
   border-radius: 25px;
   padding: 10px;
   text-decoration: none;
+}
+article{
+  background-color: black;
+}
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.mirefigyelj{
+  text-align: left;
+}
+section img{
+  padding-bottom: 10px;
+  border-radius: 10%;
 }
