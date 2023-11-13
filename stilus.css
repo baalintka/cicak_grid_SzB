@@ -1,8 +1,9 @@
+body{background-color: black;}
 *{
   color: white;
 }
 main{
-    
+    border: solid 1px white;
     width:900px;
     margin: auto;
     text-align: center;
