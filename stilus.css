@@ -1,7 +1,5 @@
 body{background-color: black;}
-*{
-  color: white;
-}
+
 main{
     border: solid 1px white;
     width:900px;
@@ -10,7 +8,7 @@ main{
 }
 
 nav{
-    
+    color: white;
     height: 100vh;
     background-image: url("images/hero.jpg");   
     background-size: cover;
@@ -23,8 +21,11 @@ nav ul {
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
   }
-  
+  nav ul li a {
+    color: white;
+  }
   
  
 nav li a {
@@ -57,9 +58,9 @@ nav li:hover{
     background-color: white;
     color: black;
   }
-
+.elet{color: white;}
 .atag{
-    
+    color: white;
     background-color: rgb(247, 123, 8);
     display: block;
     
@@ -101,6 +102,7 @@ nav li:hover{
     color: black;
 
   }
+  .elet ul li a{color: white;}
   .elet ul li a:hover{
     background-color: white;
     color: black;
@@ -110,7 +112,7 @@ nav li:hover{
   color: white;
 }
 .atagmasik{
-    
+  color: white;  
   background-color: rgb(247, 123, 8);
   display: block;
   text-align: center;
@@ -120,6 +122,11 @@ nav li:hover{
   border-radius: 25px;
   padding: 10px;
   text-decoration: none;
+}
+.kintii{
+  color: white;
+  
+
 }
 .ataga{
   background-color: rgb(247, 123, 8);
@@ -131,21 +138,46 @@ nav li:hover{
   text-decoration: none;
 }
 article{
+  
   background-color: black;
+  
 }
-.cic{
+.kintisection{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.benticic{color: white;}
+
+.cic{
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
 .mirefigyelj{
   text-align: left;
+  color: white;
 }
 section img{
   padding-bottom: 10px;
   border-radius: 10%;
 }
+.egerdiv{
+  
+  margin: 10px;
+  background-color: white;
+}
+.haldiv{
+  padding: 10px;
+  
+  background-color: white;
+}
 .eger{
+  
   max-width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.fedezfel{
+  color: black;
 }
