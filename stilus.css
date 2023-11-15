@@ -34,6 +34,9 @@ nav li a {
     padding: 14px 16px;
     text-decoration: none;
   }
+  .fedezfel section h1{
+    text-align: center;
+  }
 nav li{
     margin: 15px;
     border-radius: 25px;
@@ -110,7 +113,6 @@ nav li:hover{
     
   background-color: rgb(247, 123, 8);
   display: block;
-  
   text-align: center;
   padding: 14px 16px;
   margin-left: 250px;
@@ -119,10 +121,19 @@ nav li:hover{
   padding: 10px;
   text-decoration: none;
 }
+.ataga{
+  background-color: rgb(247, 123, 8);
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  border-radius: 25px;
+  padding: 10px;
+  text-decoration: none;
+}
 article{
   background-color: black;
 }
-section{
+.cic{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -132,4 +143,9 @@ section{
 section img{
   padding-bottom: 10px;
   border-radius: 10%;
+}
+.eger{
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
