@@ -129,6 +129,8 @@ nav li:hover{
 
 }
 .ataga{
+  
+  color: white;
   background-color: rgb(247, 123, 8);
   display: block;
   text-align: center;
@@ -146,8 +148,13 @@ article{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.kintisection img{
+  width:300px;
+}
 .benticic{color: white;}
-
+.cic img{
+  width:300px;
+}
 .cic{
   color: white;
   display: grid;
@@ -167,17 +174,27 @@ section img{
   margin: 10px;
   background-color: white;
 }
+.egerdiv img{
+  width: 80px;
+  padding: 50px;
+}
 .haldiv{
-  padding: 10px;
-  
+  max-width: 100%;
+
+  padding: 50px;
+  text-align: left;
   background-color: white;
 }
 .eger{
-  
+  text-align: left;
   max-width: 100%;
+  padding: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 .fedezfel{
   color: black;
+}
+.haldiv img{
+  width: 80px;
 }
